@@ -1,0 +1,44 @@
+body {
+  font-family: 'Play', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 800px;
+  background-color: #f6f6f6;
+  border-top: 5px solid #222;
+  border-bottom: 5px solid #222;
+  padding: 50px;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #030609;
+  margin-top: 0
+}
+
+a {
+  color:#05080C;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  color: #222
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.current-page {
+  font-weight: bold;
+  font-style: italic;
+  border-left:  1px solid #222;
+  padding-left:  6px;
+}
